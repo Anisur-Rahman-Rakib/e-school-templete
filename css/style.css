@@ -2,3 +2,116 @@ body{
 
     font-family: 'Open Sans','Oswald','Roboto', sans-serif;
 }
+a{
+    text-decoration: none;
+}
+ul,li,ol{
+    list-style:none;
+}
+.clr{
+    clear: both;
+}
+
+/* common css end */
+
+
+
+/* top-part start */
+
+
+.top-part{
+ background:#F0FFF0;
+ padding: 50px 0px 70px 0px;
+ 
+}
+.logo-size img{
+    width:250px;
+    
+}
+.manu-part{
+
+}
+.manu-part ul li a{
+    color: black;
+}
+.manu-part ul li a:hover{
+    background: green;
+    color:white;
+    border-radius: 18px;
+ 
+}
+.custom-btn{
+    border-radius:18px;
+}
+.banner-writing{
+    
+}
+.banner-writing h2,h3{
+    font-size: 50px;
+   
+}
+.banner-btn{
+    padding: 10px 50px 10px 50px;
+}
+/*  top-part end */
+
+
+/* count part start */
+
+
+.count-part-padding{
+    padding: 50px 0px 50px 0px;
+}
+#count-part .inner-icon {
+   background: #F8FFFB;
+   text-align: center;
+   padding: 10px;
+   border-radius: 10px;
+   
+   
+}
+#count-part .inner-icon:hover{
+box-shadow: 10px 10px 30px gray;
+
+}
+.images-size-setup{
+    width: 150px;
+}
+
+
+/* count part end */
+
+
+/* our course part start */
+
+
+
+#course-part .course-inner{
+    padding: 10px;
+    border-radius: 10px;
+}
+.modifyed-img{
+    width: 20px;
+}
+
+#course-part .course-inner:hover{
+    box-shadow: 10px 10px 30px gray;
+}
+.course-inner h2{
+    color: #413960;
+}
+
+/* our course part end */
+
+
+
+/*  Testimonial part start */
+.man-icon{
+    float: right;
+}
+
+.man-icon .man-img{
+width: 100px;
+}
+
+/*  Testimonial part end */
